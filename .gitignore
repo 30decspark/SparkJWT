@@ -1,0 +1,28 @@
+# Ignore temporary files and build artifacts
+*.swp
+*.*~
+project.lock.json
+obj/
+bin/
+
+# Ignore Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Ignore Rider files
+.idea/
+
+# Ignore Fleet files
+.fleet/
+
+# Ignore Code Rush files
+.cr/
+
+# Ignore Python cache files
+*.pyc
+
+# Ignore nuget packages
+nupkg/
